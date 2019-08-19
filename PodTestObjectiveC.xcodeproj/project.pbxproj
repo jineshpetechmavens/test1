@@ -14,6 +14,8 @@
 		CCB99277230A784A00B618A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCB99276230A784A00B618A0 /* Assets.xcassets */; };
 		CCB9927A230A784A00B618A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCB99278230A784A00B618A0 /* LaunchScreen.storyboard */; };
 		CCB9927D230A784A00B618A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB9927C230A784A00B618A0 /* main.m */; };
+		CCB99283230A7DC800B618A0 /* TestVC.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB99281230A7DC800B618A0 /* TestVC.h */; };
+		CCB99284230A7DC800B618A0 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CCB99282230A7DC800B618A0 /* TestVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		CCB99279230A784A00B618A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCB9927B230A784A00B618A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCB9927C230A784A00B618A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCB99281230A7DC800B618A0 /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		CCB99282230A7DC800B618A0 /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				CCB9925F230A773000B618A0 /* PodTestObjectiveC.h */,
 				CCB99260230A773100B618A0 /* Info.plist */,
+				CCB99281230A7DC800B618A0 /* TestVC.h */,
+				CCB99282230A7DC800B618A0 /* TestVC.m */,
 			);
 			path = PodTestObjectiveC;
 			sourceTree = "<group>";
@@ -101,6 +107,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCB99261230A773100B618A0 /* PodTestObjectiveC.h in Headers */,
+				CCB99283230A7DC800B618A0 /* TestVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCB99284230A7DC800B618A0 /* TestVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
